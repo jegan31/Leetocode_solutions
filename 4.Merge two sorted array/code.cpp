@@ -1,10 +1,10 @@
 //Brute force approach creating a resulting array merging the elements in both num1 and num2 array and 
 //check length of resulting array if its odd retun mid element
 //else return two middle element
-//here is the tricky part ie, if we have an array of size 8
+//here is the tricky part ie, if we have an array of size 10
 //ie.. [ 1 ,2 ,3 ,4 ,5, 6 , 7 , 8 ,9 , 10 ] 
 //median would be the average of the two middle element at index 4 and 5 which are 5, 6 . (5+6) /2 = 5.5
-//it can be find by dividing the total resulted array size  by 2 which is mid1 and mid1-1;
+//it can be find by dividing the total resulted array size  by 2 which is mid1 and mid1-1 hence 10/2 is 5 so mid elmeents are 5 and 5-1=4;
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
